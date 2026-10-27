@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        jdk-version: [25, 26]
+        jdk-version: [25, 26, 27]
         profile: ['modulepath', 'classpath']
     steps:
       - uses: actions/checkout@v3
